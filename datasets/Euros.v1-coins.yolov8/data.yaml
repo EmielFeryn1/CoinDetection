@@ -1,0 +1,13 @@
+train: ../train/images
+val: ../valid/images
+test: ../test/images
+
+nc: 3
+names: ['1-EUR', '2-EUR', '50-EUR']
+
+roboflow:
+  workspace: alberto-pasca
+  project: euros
+  version: 1
+  license: CC BY 4.0
+  url: https://universe.roboflow.com/alberto-pasca/euros/dataset/1

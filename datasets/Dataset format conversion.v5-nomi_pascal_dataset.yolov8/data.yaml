@@ -1,0 +1,13 @@
+train: ../train/images
+val: ../valid/images
+test: ../test/images
+
+nc: 5
+names: ['100euro', '10euro', '20euro', '50euro', '5euro']
+
+roboflow:
+  workspace: filippo-comastri
+  project: dataset-format-conversion-savya
+  version: 5
+  license: CC BY 4.0
+  url: https://universe.roboflow.com/filippo-comastri/dataset-format-conversion-savya/dataset/5

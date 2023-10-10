@@ -1,0 +1,13 @@
+train: ../train/images
+val: ../valid/images
+test: ../test/images
+
+nc: 1
+names: ['50Euro']
+
+roboflow:
+  workspace: objetos-test
+  project: euro-50-new
+  version: 1
+  license: CC BY 4.0
+  url: https://universe.roboflow.com/objetos-test/euro-50-new/dataset/1

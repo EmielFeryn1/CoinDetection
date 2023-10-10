@@ -1,0 +1,13 @@
+train: ../train/images
+val: ../valid/images
+test: ../test/images
+
+nc: 1
+names: ['100Euro']
+
+roboflow:
+  workspace: personal-ypvf5
+  project: euro100
+  version: 1
+  license: CC BY 4.0
+  url: https://universe.roboflow.com/personal-ypvf5/euro100/dataset/1

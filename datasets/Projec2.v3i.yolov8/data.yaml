@@ -1,0 +1,13 @@
+train: ../train/images
+val: ../valid/images
+test: ../test/images
+
+nc: 8
+names: ['1', '10', '100', '2', '20', '200', '5', '50']
+
+roboflow:
+  workspace: dhbw-mannheim
+  project: projec2
+  version: 3
+  license: Public Domain
+  url: https://universe.roboflow.com/dhbw-mannheim/projec2/dataset/3
